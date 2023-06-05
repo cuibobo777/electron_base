@@ -12,6 +12,7 @@
     "electron:build": "npm run build && tsc && electron-builder"
   },
   "dependencies": {
+    "pinia": "^2.1.3",
     "vue": "^3.2.47",
     "vue-router": "4"
   },

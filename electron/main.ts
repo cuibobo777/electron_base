@@ -22,7 +22,7 @@ function createWindow() {
     mainWindow.webContents.openDevTools();
   } else {
     // 否则页面加载打包后的index.html文件
-    mainWindow.loadFile(path.join(__dirname, "./index.html"));
+    mainWindow.loadFile(path.join(__dirname, "../index.html"));
   }
 }
 
